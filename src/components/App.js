@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
         <input type="text" value={input} onChange={e => setInput(e.target.value)} />
-        {input && <p>Hello, {input}!</p>}
+        {input && <p>Hello {input}!</p>}
     </div>
   )
 }
